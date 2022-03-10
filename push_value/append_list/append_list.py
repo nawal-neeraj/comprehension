@@ -1,4 +1,4 @@
-class Append_list:
+class AppendLlist:
     list_items = ["python", "Js", "ReactJs", "NextJs", "React-Native", "Flutter", "Php", "NodeJs"]
     
     def list_data(self):

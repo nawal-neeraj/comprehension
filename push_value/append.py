@@ -1,5 +1,5 @@
-from append_list.append_list import Append_list
+from append_list.append_list import AppendLlist
 
-class_instance = Append_list()
+class_instance = AppendLlist()
 result_value = class_instance.list_data()
 print(f"new list using append {result_value}")
