@@ -1,6 +1,7 @@
 class Celsius:
-    def __init__(self, temperature=0):
-        self.temperature = temperature
+    def __init__(self, xyz=0):
+        print("initial value")
+        self.temperature = xyz
 
     def to_fahrenheit(self):
         return (self.temperature * 1.8) + 32
@@ -20,10 +21,12 @@ class Celsius:
 
 # create an object
 check_value = Celsius(37)
-
+print("-------")
+check_value.temperature = 20
 print(check_value.temperature)
 
+# check_value_two = Celsius(32)
 
-print(check_value.to_fahrenheit())
+# print(check_value.to_fahrenheit())
 
-coldest_thing = Celsius(-300)
+# coldest_thing = Celsius(-300)
